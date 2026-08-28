@@ -25,9 +25,9 @@ export default function Footer() {
             </div>
             <div className={styles.linkCol}>
               <h4 className={styles.linkTitle}>Legal</h4>
-              <span className={styles.link}>Termos de Uso</span>
-              <span className={styles.link}>Privacidade</span>
-              <span className={styles.link}>LGPD</span>
+              <Link href="/termos" className={styles.link}>Termos de Uso</Link>
+              <Link href="/privacidade" className={styles.link}>Privacidade</Link>
+              <Link href="/lgpd" className={styles.link}>LGPD</Link>
             </div>
             <div className={styles.linkCol}>
               <h4 className={styles.linkTitle}>Contato</h4>
