@@ -31,7 +31,7 @@ export default function Segments() {
             <div
               key={biz.id}
               className={`${styles.card} ${visible ? styles.visible : ''}`}
-              style={{ animationDelay: `${i * 80}ms` }}
+              style={{ transitionDelay: `${i * 80}ms` }}
             >
               <span className={styles.emoji}>{biz.icon}</span>
               <h3 className={styles.cardTitle}>{biz.name}</h3>

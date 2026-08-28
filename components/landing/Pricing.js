@@ -33,7 +33,7 @@ export default function Pricing() {
             <div
               key={plan.id}
               className={`${styles.card} ${plan.highlighted ? styles.highlighted : ''} ${visible ? styles.visible : ''}`}
-              style={{ animationDelay: `${i * 100}ms` }}
+              style={{ transitionDelay: `${i * 100}ms` }}
             >
               {plan.highlighted && (
                 <span className={styles.popular}>Mais popular</span>

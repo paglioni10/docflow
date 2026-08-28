@@ -72,7 +72,7 @@ export default function Features() {
             <div
               key={feat.title}
               className={`${styles.card} ${visible ? styles.visible : ''}`}
-              style={{ animationDelay: `${i * 100}ms` }}
+              style={{ transitionDelay: `${i * 100}ms` }}
             >
               <div
                 className={styles.iconWrap}

@@ -49,7 +49,7 @@ export default function HowItWorks() {
             <div
               key={step.number}
               className={`${styles.card} ${visible ? styles.visible : ''}`}
-              style={{ animationDelay: `${i * 150}ms` }}
+              style={{ transitionDelay: `${i * 150}ms` }}
             >
               <div className={styles.iconWrap}>
                 <step.icon size={28} />
