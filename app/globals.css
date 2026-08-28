@@ -253,6 +253,6 @@ ul, ol {
 
 /* --- Selection Color --- */
 ::selection {
-  background: rgba(94, 234, 212, 0.3);
-  color: var(--color-text-primary);
+  background: rgba(59, 130, 246, 0.35);
+  color: #0F172A;
 }
