@@ -16,7 +16,7 @@ export default function PrivacidadePage() {
             <ArrowLeft size={16} /> Voltar para o início
           </Link>
           <h1 className={styles.title}>Política de Privacidade</h1>
-          <p className={styles.lastUpdated}>Última atualização: 1 de janeiro de 2025</p>
+          <p className={styles.lastUpdated}>Última atualização: 1 de janeiro de 2026</p>
         </div>
       </header>
 

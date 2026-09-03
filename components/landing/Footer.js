@@ -39,7 +39,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © 2025 DocFlow. Todos os direitos reservados.
+            © 2026 DocFlow. Todos os direitos reservados.
           </p>
           <p className={styles.disclaimer}>
             Este produto é um apoio à gestão documental. Não substitui consultoria jurídica profissional.

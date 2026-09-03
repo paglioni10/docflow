@@ -16,7 +16,7 @@ export default function LGPDPage() {
             <ArrowLeft size={16} /> Voltar para o início
           </Link>
           <h1 className={styles.title}>LGPD e Proteção de Dados</h1>
-          <p className={styles.lastUpdated}>Última atualização: 1 de janeiro de 2025</p>
+          <p className={styles.lastUpdated}>Última atualização: 1 de janeiro de 2026</p>
         </div>
       </header>
 
