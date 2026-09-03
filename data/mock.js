@@ -163,8 +163,8 @@ export const mockDocuments = [
     type: "contrato-servico",
     client: "Maria Silva",
     status: "signed",
-    createdAt: "2025-06-15",
-    signedAt: "2025-06-18",
+    createdAt: "2026-06-15",
+    signedAt: "2026-06-18",
   },
   {
     id: "doc-002",
@@ -172,7 +172,7 @@ export const mockDocuments = [
     type: "termo-responsabilidade",
     client: "Ana Oliveira",
     status: "pending",
-    createdAt: "2025-06-20",
+    createdAt: "2026-06-20",
     signedAt: null,
   },
   {
@@ -181,7 +181,7 @@ export const mockDocuments = [
     type: "proposta-comercial",
     client: "Tech Solutions LTDA",
     status: "draft",
-    createdAt: "2025-06-22",
+    createdAt: "2026-06-22",
     signedAt: null,
   },
   {
@@ -190,8 +190,8 @@ export const mockDocuments = [
     type: "contrato-servico",
     client: "João Santos",
     status: "signed",
-    createdAt: "2025-06-10",
-    signedAt: "2025-06-12",
+    createdAt: "2026-06-10",
+    signedAt: "2026-06-12",
   },
   {
     id: "doc-005",
@@ -199,8 +199,8 @@ export const mockDocuments = [
     type: "recibo-pagamento",
     client: "Pedro Mendes",
     status: "signed",
-    createdAt: "2025-06-25",
-    signedAt: "2025-06-25",
+    createdAt: "2026-06-25",
+    signedAt: "2026-06-25",
   },
   {
     id: "doc-006",
@@ -208,7 +208,7 @@ export const mockDocuments = [
     type: "politica-cancelamento",
     client: "",
     status: "draft",
-    createdAt: "2025-06-26",
+    createdAt: "2026-06-26",
     signedAt: null,
   },
   {
@@ -217,7 +217,7 @@ export const mockDocuments = [
     type: "termo-responsabilidade",
     client: "Carla Ferreira",
     status: "pending",
-    createdAt: "2025-06-27",
+    createdAt: "2026-06-27",
     signedAt: null,
   },
   {
@@ -226,7 +226,7 @@ export const mockDocuments = [
     type: "proposta-comercial",
     client: "Roberto Lima",
     status: "expired",
-    createdAt: "2025-05-01",
+    createdAt: "2026-05-01",
     signedAt: null,
   },
 ];
@@ -303,7 +303,7 @@ export const pricingPlans = [
 
 export const mockGeneratedContract = `
 <h1 style="text-align: center; color: #1E293B; margin-bottom: 8px;">CONTRATO DE PRESTAÇÃO DE SERVIÇO</h1>
-<p style="text-align: center; color: #64748B; margin-bottom: 32px;">N° DOC-2025-0047</p>
+<p style="text-align: center; color: #64748B; margin-bottom: 32px;">N° DOC-2026-0047</p>
 
 <p style="margin-bottom: 16px;">Pelo presente instrumento particular, as partes abaixo qualificadas resolvem celebrar o presente <strong>Contrato de Prestação de Serviço</strong>, que será regido pelas seguintes cláusulas e condições:</p>
 
@@ -325,7 +325,7 @@ export const mockGeneratedContract = `
 
 <h2 style="color: #1E293B; margin: 24px 0 12px;">3. DO PRAZO</h2>
 
-<p style="margin-bottom: 12px;">O presente contrato terá vigência de <strong>90 (noventa) dias</strong>, com início em 26/06/2025 e término em 24/09/2025, podendo ser renovado por acordo mútuo entre as partes.</p>
+<p style="margin-bottom: 12px;">O presente contrato terá vigência de <strong>90 (noventa) dias</strong>, com início em 26/06/2026 e término em 24/09/2026, podendo ser renovado por acordo mútuo entre as partes.</p>
 
 <h2 style="color: #1E293B; margin: 24px 0 12px;">4. DO VALOR E PAGAMENTO</h2>
 
@@ -368,7 +368,7 @@ export const mockGeneratedContract = `
 
 <p style="margin-bottom: 24px;">E por estarem de acordo, as partes assinam o presente instrumento em 2 (duas) vias de igual teor e forma.</p>
 
-<p style="margin-bottom: 8px;">São Paulo, 26 de Junho de 2025.</p>
+<p style="margin-bottom: 8px;">São Paulo, 26 de Junho de 2026.</p>
 
 <div style="display: flex; justify-content: space-between; margin-top: 48px;">
   <div style="text-align: center; width: 45%;">
