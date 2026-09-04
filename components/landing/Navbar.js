@@ -19,7 +19,9 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
-        <Logo variant="light" />
+        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} style={{ textDecoration: 'none', cursor: 'pointer' }}>
+          <Logo variant="light" />
+        </a>
 
         <div className={`${styles.links} ${mobileOpen ? styles.mobileOpen : ''}`}>
           <a href="#recursos" className={styles.link}>Recursos</a>
