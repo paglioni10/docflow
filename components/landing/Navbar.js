@@ -23,8 +23,8 @@ export default function Navbar() {
 
         <div className={`${styles.links} ${mobileOpen ? styles.mobileOpen : ''}`}>
           <a href="#recursos" className={styles.link}>Recursos</a>
-          <a href="#planos" className={styles.link}>Planos</a>
           <a href="#segmentos" className={styles.link}>Segmentos</a>
+          <a href="#planos" className={styles.link}>Planos</a>
           <Link href="/login" className={styles.link}>Entrar</Link>
           <Link href="/cadastro" className={styles.cta}>Começar grátis</Link>
         </div>
